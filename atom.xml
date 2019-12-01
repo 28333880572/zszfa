@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zszfa.github.io/</id>
     <title>zero</title>
-    <updated>2019-12-01T03:14:25.231Z</updated>
+    <updated>2019-12-01T03:15:34.272Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zszfa.github.io/"/>
     <link rel="self" href="https://zszfa.github.io//atom.xml"/>
@@ -10,4 +10,13 @@
     <logo>https://zszfa.github.io//images/avatar.png</logo>
     <icon>https://zszfa.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, zero</rights>
+    <entry>
+        <title type="html"><![CDATA[zzzzxxxxxxxxxx]]></title>
+        <id>https://zszfa.github.io//post/zzzzxxxxxxxxxx</id>
+        <link href="https://zszfa.github.io//post/zzzzxxxxxxxxxx">
+        </link>
+        <updated>2019-12-01T03:15:20.000Z</updated>
+        <content type="html"><![CDATA[<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+]]></content>
+    </entry>
 </feed>

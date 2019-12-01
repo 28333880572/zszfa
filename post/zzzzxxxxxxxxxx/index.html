@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | zero</title>
+<title>zzzzxxxxxxxxxx | zero</title>
 <meta name="description" content="We can be both of God and the devil.Since we&#39;re trying to raise the dead against the stream of time.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,6 +13,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://zszfa.github.io//styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -91,30 +97,26 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">zzzzxxxxxxxxxx</h2>
+            <div class="post-date">2019-12-01</div>
+            
+            <div class="post-content">
+              <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
+            
+
+            
               
-                
-                  <article class="post">
-                    <a href="https://zszfa.github.io//post/zzzzxxxxxxxxxx">
-                      <h2 class="post-title">
-                        zzzzxxxxxxxxxx
-                      </h2>
-                    </a>
-                  </article>
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -136,6 +138,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'Iv1.fc624da1107aecca',
+        clientSecret: '2584fea80d317e6ca32ef97259e74c3b8e347fd5',
+        repo: 'zszfa.github.io',
+        owner: 'zszfa',
+        admin: ['zszfa'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
