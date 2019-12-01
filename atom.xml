@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zszfa.github.io/</id>
     <title>zero</title>
-    <updated>2019-12-01T05:04:11.992Z</updated>
+    <updated>2019-12-01T06:19:05.486Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zszfa.github.io/"/>
     <link rel="self" href="https://zszfa.github.io//atom.xml"/>
@@ -10,4 +10,18 @@
     <logo>https://zszfa.github.io//images/avatar.png</logo>
     <icon>https://zszfa.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, zero</rights>
+    <entry>
+        <title type="html"><![CDATA[几个壁纸网站]]></title>
+        <id>https://zszfa.github.io//post/ji-ge-bi-zhi-wang-zhan</id>
+        <link href="https://zszfa.github.io//post/ji-ge-bi-zhi-wang-zhan">
+        </link>
+        <updated>2019-12-01T05:04:19.000Z</updated>
+        <content type="html"><![CDATA[<p>WALLPAPERABYSS https://wall.alphacoders.com/</p>
+<p>蓝调 http://lcoc.top/</p>
+<p>Pexels https://www.pexels.com/</p>
+<p>Facets https://www.facets.la/</p>
+<p>wallpapermaiden https://www.wallpapermaiden.com/</p>
+<p>wallpaperscraft https://wallpaperscraft.com/</p>
+]]></content>
+    </entry>
 </feed>
